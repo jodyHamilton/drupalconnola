@@ -1,5 +1,5 @@
 assets:
-  nola.sql
+  - nola.sql
 steps:
   - name: Probo site setup
     plugin: Drupal
