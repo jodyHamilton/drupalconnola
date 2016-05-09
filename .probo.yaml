@@ -1,0 +1,9 @@
+assets:
+  - nola.sql
+steps:
+  - name: Probo site setup
+    plugin: Drupal
+    database: nola.sql
+    databaseUpdates: true
+    revertFeatures: true
+    clearCaches: true
