@@ -1,0 +1,12 @@
+<?php
+
+/** 
+ * Implements hook_update_N().
+ */
+function seven_users_update_7000() {
+  module_enable(array('admin_menu')); 
+}
+
+function seven_users_update_7001() {
+  module_disable(array('toolbar')); 
+}
